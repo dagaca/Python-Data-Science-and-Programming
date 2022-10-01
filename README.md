@@ -1,1 +1,1 @@
-# Python-Programming-for-Artificial-Intelligence
+# Python-Programming
