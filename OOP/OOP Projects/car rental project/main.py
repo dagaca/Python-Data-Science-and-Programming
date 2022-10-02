@@ -115,14 +115,3 @@ while True:
         main_menu = True
     print("Thank you for using the vehicle rental shop")
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
