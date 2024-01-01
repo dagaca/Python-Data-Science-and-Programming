@@ -6,7 +6,7 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi boyunca elde 
 
 ### 1. Data Science with Python
    - **Açıklama:** Veri bilimi temellerini öğrenmek ve uygulamak için gerçekleştirdiğim projeleri içerir.
-   - **[Proje Klasörü](Data%20Science)**
+   - **[Data Science](Data%20Science)**
 
 ### 2. Data Visualization with Python
    - **Açıklama:** Matplotlib ve diğer görselleştirme araçları ile veri görselleştirmesi konularında yapılmış projeleri içerir.
@@ -32,11 +32,12 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi boyunca elde 
    - **Açıklama:** Matplotlib kütüphanesi üzerine odaklanan, veri görselleştirmesi konusunda detaylı projeleri içerir.
    - **[Proje Klasörü](Visualization%20with%20Matplotlib)**
 
+
 ## Nasıl Başlamalı?
 
 1. Bu repo'yu bilgisayarınıza klonlayın.
    ```bash
-   git clone https://github.com/kullanici_adi/proje-adı.git
+   git clone https://github.com/dagaca/Python-Programming.git
 
 
 ## Daha Fazla Bilgi Edin
