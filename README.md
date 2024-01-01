@@ -41,4 +41,4 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi boyunca elde 
 
 
 ## Daha Fazla Bilgi Edin
-Bu bilgiler ışığında farklı datalar kullanarak yapmış olduğum çalışmalar <a href="https://www.kaggle.com/dagaca"><div><img src="https://github.com/devicons/devicon/blob/master/icons/kaggle/kaggle-original-wordmark.svg" title="Kaggle" alt="Kaggle" width="30" height="30"/> </div></a> hesabımda mevcuttur.
+Bu bilgiler ışığında farklı datalar kullanarak yapmış olduğum çalışmalar<a href="https://www.kaggle.com/dagaca"><div><img src="https://github.com/devicons/devicon/blob/master/icons/kaggle/kaggle-original-wordmark.svg" title="Kaggle" alt="Kaggle" width="30" height="30"/></div></a>hesabımda mevcuttur.
