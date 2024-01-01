@@ -39,6 +39,6 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi boyunca elde 
    ```bash
    git clone https://github.com/dagaca/Python-Programming.git
 
-
+https://github.com/devicons/devicon/blob/master/icons/kaggle/kaggle-original-wordmark.svg
 ## Daha Fazla Bilgi Edin
-Bu bilgiler ışığında farklı datalar kullanarak yapmış olduğum çalışmalar [![Kaggle Badge](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/dagaca) hesabımda mevcuttur.
+Bu bilgiler ışığında farklı datalar kullanarak yapmış olduğum çalışmalar [![Kaggle Badge](https://github.com/devicons/devicon/blob/master/icons/kaggle/kaggle-original-wordmark.svg)](https://www.kaggle.com/dagaca) hesabımda mevcuttur.
