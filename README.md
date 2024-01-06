@@ -1,6 +1,7 @@
 # Python Data Science and Programming
 
-Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi boyunca elde ettiğim bilgileri ve bu bilgileri kullanarak gerçekleştirdiğim projeleri içermektedir. Her bir proje, belirli bir konuya odaklanmakta ve bu README dosyası, bu konuların her birini ayrı ayrı açıklamaktadır.
+Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi süresince edindiğim bilgileri ve bu bilgileri kullanarak gerçekleştirdiğim projeleri içermektedir. Her bir proje, belirli bir konuya odaklanmakta ve bu README dosyası, bu konuların her birini ayrı ayrı açıklamaktadır.
+
 
 
 ## Projeler
@@ -34,11 +35,13 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi boyunca elde 
    - **[Visualization with Matplotlib](Visualization%20with%20Matplotlib)**
 
 
+
 ## Nasıl Başlamalı?
 
 1. Bu repo'yu bilgisayarınıza klonlayın.
    ```bash
-   git clone https://github.com/dagaca/Python-Programming.git
+   git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
+   ```
 
 
 ## Daha Fazla Bilgi Edin
