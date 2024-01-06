@@ -1,4 +1,4 @@
-# Yapay Zeka ve Veri Bilimi Projeleri
+# Python Data Science and Programming
 
 Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi boyunca elde ettiğim bilgileri ve bu bilgileri kullanarak gerçekleştirdiğim projeleri içermektedir. Her bir proje, belirli bir konuya odaklanmakta ve bu README dosyası, bu konuların her birini ayrı ayrı açıklamaktadır.
 
