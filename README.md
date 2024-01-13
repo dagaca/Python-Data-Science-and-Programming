@@ -7,11 +7,11 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi süresince ed
 ## Projeler
 
 ### 1. Data Science with Python
-   - **Açıklama:** Veri bilimi temellerini öğrenmek ve uygulamak için gerçekleştirdiğim projeleri içerir.
+   - **Açıklama:** Veri bilimi temellerini öğrenmek ve uygulamak için gerçekleştirilen projeleri içerir.
    - **[Data Science](Data%20Science)**
 
 ### 2. Data Visualization with Python
-   - **Açıklama:** Matplotlib ve diğer görselleştirme araçları ile veri görselleştirmesi konularında yapılmış projeleri içerir.
+   - **Açıklama:** Matplotlib ve diğer görselleştirme araçları ile veri görselleştirmesi konularında yapılan projeleri içerir.
    - **[Data Visualization](Data%20Visualization)**
 
 ### 3. Dealing with Programming Errors
@@ -19,7 +19,7 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi süresince ed
    - **[Dealing with Programming Errors](Programming%20Errors)**
 
 ### 4. Machine Learning
-   - **Açıklama:** Temel makine öğrenimi algoritmalarını öğrenmek ve uygulamak için gerçekleştirdiğim projeleri içerir.
+   - **Açıklama:** Temel makine öğrenimi algoritmalarını öğrenmek ve uygulamak için gerçekleştirilen projeleri içerir.
    - **[Machine Learning](Machine%20Learning)**
 
 ### 5. Object Oriented Programming with Python (OOP)
@@ -45,4 +45,4 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi süresince ed
 
 
 ## Daha Fazla Bilgi Edin
-Bu bilgiler ışığında farklı datalar kullanarak yapmış olduğum çalışmalar [![Kaggle Badge](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/dagaca) hesabımda mevcuttur.
+Bu bilgiler ışığında farklı datalar kullanılarak yapılan çalışmalar [![Kaggle Badge](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/dagaca) hesabımda mevcuttur.
