@@ -17,7 +17,7 @@ git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Data Science"
 ```
 
-Projenin çalışması için aşağıdaki Python kütüphanelerini yükleyin:
+Projenin çalışması için "requirements.txt" içerisinde bulunan Python kütüphanelerini yükleyin:
 
 ```bash
 pip install -r requirements.txt
