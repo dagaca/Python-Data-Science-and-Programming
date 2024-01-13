@@ -1,6 +1,6 @@
 # Python Data Science and Programming
 
-Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi süresince edindiğim bilgileri ve bu bilgileri kullanarak gerçekleştirdiğim projeleri içermektedir. Her bir proje, belirli bir konuya odaklanmaktadır. Aşağıda, bu projelerin ve konuların kısa bir özeti bulunmaktadır. 
+Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi süresince edinilen bilgileri ve bu bilgiler kullanılarak gerçekleştirilen projeleri içermektedir. Her bir proje, belirli bir konuya odaklanmaktadır. Aşağıda, bu projelerin ve konuların kısa bir özeti bulunmaktadır. 
 
 
 
