@@ -1,48 +1,31 @@
-# Python Data Science and Programming
+# Pokémon Challenge - Python ile Veri Analizi
 
-Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi süresince edindiğim bilgileri ve bu bilgileri kullanarak gerçekleştirdiğim projeleri içermektedir. Her bir proje, belirli bir konuya odaklanmaktadır. Aşağıda, bu projelerin ve konuların kısa bir özeti bulunmaktadır. 
+Bu proje, Kaggle'dan alınan Pokémon veri setini analiz etmek için Python kodunu içermektedir. Veri seti, çeşitli Pokémon'ların istatistikleri, türleri ve yetenekleri gibi bilgileri içerir. Analizler, keşifler ve görselleştirmeler içeren kapsamlı bir projedir.
 
+## Veri Seti
 
-
-## Projeler
-
-### 1. Data Science with Python
-   - **Açıklama:** Veri bilimi temellerini öğrenmek ve uygulamak için gerçekleştirdiğim projeleri içerir.
-   - **[Data Science](Data%20Science)**
-
-### 2. Data Visualization with Python
-   - **Açıklama:** Matplotlib ve diğer görselleştirme araçları ile veri görselleştirmesi konularında yapılmış projeleri içerir.
-   - **[Data Visualization](Data%20Visualization)**
-
-### 3. Dealing with Programming Errors
-   - **Açıklama:** Python programlama dilinde karşılaşılan hatalar ve bu hataların çözümüne yönelik projeleri içerir.
-   - **[Dealing with Programming Errors](Programming%20Errors)**
-
-### 4. Machine Learning
-   - **Açıklama:** Temel makine öğrenimi algoritmalarını öğrenmek ve uygulamak için gerçekleştirdiğim projeleri içerir.
-   - **[Machine Learning](Machine%20Learning)**
-
-### 5. Object Oriented Programming with Python (OOP)
-   - **Açıklama:** Python dilinde nesne yönelimli programlama (OOP) prensiplerini içeren projeleri içerir.
-   - **[OOP](OOP)**
-
-### 6. Python Basics
-   - **Açıklama:** Python dilinin temel özelliklerine odaklanan projeleri içerir.
-   - **[Python Basics](Python%20Basics)**
-
-### 7. Visualization with Matplotlib
-   - **Açıklama:** Matplotlib kütüphanesi üzerine odaklanan, veri görselleştirmesi konusunda detaylı projeleri içerir.
-   - **[Visualization with Matplotlib](Visualization%20with%20Matplotlib)**
+Bu projede kullanılan Pokémon veri setine [bu bağlantıdan](https://www.kaggle.com/datasets/terminus7/pokemon-challenge) ulaşabilirsiniz. Veri seti, çeşitli Pokémon özelliklerini içermektedir.
 
 
+## Başlarken
+Proje kopyalandıktan sonra aşağıdaki adımları izleyerek başlayabilirsiniz:
 
-## Nasıl Başlamalı?
+```bash
+git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
+cd Data Science
+pip install -r requirements.txt
+```
 
-1. Bu repo'yu bilgisayarınıza klonlayın.
-   ```bash
-   git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
-   ```
+Python betiğini çalıştırarak analizlere başlayın.
 
+```bash
+python data-sciencetutorial-for-beginners.ipynb
+```
 
-## Daha Fazla Bilgi Edin
-Bu bilgiler ışığında farklı datalar kullanarak yapmış olduğum çalışmalar [![Kaggle Badge](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/dagaca) hesabımda mevcuttur.
+## Proje İçeriği
+- Python betiği, Pokémon veri setini detaylı bir şekilde inceler. İstatistikler, tür analizleri, eğilimler ve daha fazlasını içeren kapsamlı bir rapor oluşturur.
+
+- Çeşitli grafikler ve görselleştirmeler, analiz sonuçlarını daha anlaşılır kılmak için kullanılır. Örnek olarak, tür dağılımları, istatistikler arasındaki korelasyonlar ve yaş gruplarına göre Pokémon sayıları gibi görselleştirmeler bulunur.
+
+## Katkılar
+Projeye katkıda bulunmak istiyorsanız, lütfen bir konu açın veya bir çekme isteği oluşturun. Her türlü katkı ve geri bildirim memnuniyetle karşılanır.
