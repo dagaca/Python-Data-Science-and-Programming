@@ -12,7 +12,12 @@ Proje kopyalandıktan sonra aşağıdaki adımları izleyerek başlayabilirsiniz
 
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
-cd Data Science
+cd "Data Science"
+```
+
+Projenin çalışması için aşağıdaki Python kütüphanelerini yükleyin:
+
+```bash
 pip install -r requirements.txt
 ```
 
