@@ -1,20 +1,21 @@
-# Pokémon Challenge - Python ile Veri Analizi
-Bu proje, Kaggle'dan alınan Pokémon veri setini analiz etmek için Python kodunu içermektedir. Veri seti, çeşitli Pokémon'ların istatistikleri, türleri ve yetenekleri gibi bilgileri içerir. Analizler, keşifler ve görselleştirmeler içeren kapsamlı bir projedir.
+# Earthquake Challenge - Python ile Veri Görselleştirme
+
+Bu proje, Kaggle'dan alınan deprem veri setini analiz etmek ve interaktif bir harita üzerinde depremlerin yıllara göre dağılımını göstermek için Python kodunu içermektedir. Veri seti, depremlerin tarihleri, koordinatları, derinlikleri, büyüklükleri ve türleri gibi bilgileri içermektedir. Analizler, keşifler ve görselleştirmeler içeren kapsamlı bir projedir.
 
 ## Veri Seti
-Bu projede kullanılan Pokémon veri setine [bu bağlantıdan](https://www.kaggle.com/datasets/terminus7/pokemon-challenge) ulaşabilirsiniz. Veri seti, çeşitli Pokémon özelliklerini içermektedir.
+Bu projede kullanılan deprem veri setine [bu bağlantıdan](https://www.kaggle.com/datasets/usgs/earthquake-database) ulaşabilirsiniz. Veri seti, çeşitli deprem özelliklerini içermektedir.
 
 ## Proje İçeriği
-- Python betiği, Pokémon veri setini detaylı bir şekilde inceler. İstatistikler, tür analizleri, eğilimler ve daha fazlasını içeren kapsamlı bir rapor oluşturur.
+- Python betiği, deprem veri setini detaylı bir şekilde inceler. Yıllara göre deprem sayıları, depremlerin türleri ve koordinatları üzerinde analizler gerçekleştirir.
 
-- Çeşitli grafikler ve görselleştirmeler, analiz sonuçlarını daha anlaşılır kılmak için kullanılır. Örnek olarak, tür dağılımları, istatistikler arasındaki korelasyonlar ve yaş gruplarına göre Pokémon sayıları gibi görselleştirmeler bulunur.
+- Interaktif bir harita üzerinde depremlerin yıllara göre dağılımını gösteren bir animasyon oluşturur. Bu animasyon, depremlerin türlerine göre farklı renklerle vurgulanmıştır.
 
 ## Nasıl Başlamalı?
 Aşağıdaki adımları izleyerek başlayabilirsiniz:
 
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
-cd "Data Science"
+cd "Data Visualization"
 ```
 
 Projenin çalışması için "requirements.txt" içerisinde bulunan Python kütüphanelerini yükleyin:
