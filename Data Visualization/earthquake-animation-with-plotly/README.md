@@ -16,6 +16,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Data Visualization"
+cd "earthquake-animation-with-plotly"
 ```
 
 Projenin çalışması için "requirements.txt" içerisinde bulunan Python kütüphanelerini yükleyin:
