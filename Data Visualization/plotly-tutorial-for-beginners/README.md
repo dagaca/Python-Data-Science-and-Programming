@@ -1,6 +1,6 @@
-# Dünya Üniversiteleri Sıralama Veri Seti Analizi ve Görselleştirme
+# World University Rankings - Python ile Veri Analizi ve Görselleştirme
 
-Bu proje, Kaggle'dan alınan "Dünya Üniversiteleri Sıralama" veri setini kullanarak Python ile veri analizi ve görselleştirme işlemlerini içermektedir. Proje, eğitim verileri, öğrenci sayıları, öğretim kalitesi, uluslararası etkileşim ve diğer birçok faktörü içeren geniş bir veri setini ele almaktadır.
+Bu proje, Kaggle'dan alınan "World University Rankings" veri setini kullanarak Python ile veri analizi ve görselleştirme işlemlerini içermektedir. Proje, eğitim verileri, öğrenci sayıları, öğretim kalitesi, uluslararası etkileşim ve diğer birçok faktörü içeren geniş bir veri setini ele almaktadır.
 
 
 ## Veri Seti
