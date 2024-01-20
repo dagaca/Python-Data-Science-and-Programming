@@ -11,7 +11,7 @@ Analiz, Amerika'nın demografik ve polis müdahaleleriyle ilgili çeşitli veri 
 - `PercentOver25CompletedHighSchool.csv`
 - `PercentagePeopleBelowPovertyLevel.csv`
 - `PoliceKillingsUS.csv`
-- `ShareRaceByCity.csv
+- `ShareRaceByCity.csv`
 
 
 ## Veri Keşfi ve Görselleştirme
