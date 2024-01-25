@@ -1,33 +1,77 @@
-# WW2 Bombardıman ve Hava Koşulları Veri Analizi
+# Python Hata Yönetimi
 
-Bu repo, zaman serisi tahminleme ve veri keşfi analizi (EDA) konularında temel bir projeyi kapsamaktadır. Projede, II. Dünya Savaşı (II. Dünya Savaşı) hava bombardıman operasyonları ve hava koşulları ile ilgili çeşitli veri kaynakları keşfedilip analiz edilmiştir.
+Bu repo, dilin kurallarına uymayan ifadelerin yol açtığı syntax hataları ve çeşitli istisnaları ele almak için örnekler içerir.
 
+## Syntax Hataları
 
-## Veri Seti
-Bu projede kullanılan veri setlerine [bu](https://www.kaggle.com/datasets/usaf/world-war-ii) ve [bu bağlantıdan](https://www.kaggle.com/datasets/smid80/weatherww2) ulaşabilirsiniz. 
+Syntax hataları, dilin kurallarının ihlal edildiği durumları ifade eder. Kod içerisindeki belirli satırları açmak, syntax hatalarına neden olacaktır. 
 
+Örneğin:
 
-## Proje Tanımı
+```python
+# Aşağıdaki satırı açmak, SyntaxError hatasına neden olacaktır
+print 9
+```
 
-Bu proje, II. Dünya Savaşı dönemine ait hava bombardımanları ve hava koşulları verilerini içerir. WW2 kısaltması, bu döneme atıfta bulunmak için kullanılır. Projenin ana odak noktaları şunlardır:
+## İstisna Durumları
 
-- **Veri Keşfi Analizi (EDA):** Veri setini anlamak için temel analizler ve görselleştirmeler.
-- **Zaman Serisi Tahminleme:** Zaman serisi verilerini kullanarak gelecekteki olayları tahminleme süreci.
+Kod aynı zamanda çeşitli istisna durumlarını ele almayı gösterir:
 
+1. ZeroDivisionError
+```python
+# Aşağıdaki satırı açmak, ZeroDivisionError hatasına neden olacaktır
+a = k/zero
+```
+
+2. IndexError
+```python
+# Aşağıdaki satırı açmak, IndexError hatasına neden olacaktır
+list1[15]
+```
+
+3. ModuleNotFoundError
+```python
+# Aşağıdaki satırı açmak, ModuleNotFoundError hatasına neden olacaktır
+import numpyy
+```
+
+4. FileNotFoundError
+```python
+# Aşağıdaki satırı açmak, FileNotFoundError hatasına neden olacaktır
+pd.read_csv("asd")
+```
+
+5. TypeError
+```python
+# Aşağıdaki satırı açmak, TypeError hatasına neden olacaktır
+"2" + 2
+```
+
+6. ValueError
+```python
+# Aşağıdaki satırı açmak, ValueError hatasına neden olacaktır
+int("sad")
+```
+
+7. Try-Except Bloğu
+Try-except bloğu, istisnaları yakalamak ve bunlarla uygun bir şekilde başa çıkmak için kullanılır.
+```python
+try:
+    1/1
+except:
+    print("except")
+else:
+    print("else")
+finally:
+    print("done")
+```
 
 ## Nasıl Başlamalı?
 Aşağıdaki adımları izleyerek başlayabilirsiniz:
 
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
-cd "Data Visualization"
-cd "time-series-prediction-tutorial-with-eda"
-```
-
-Projenin çalışması için "requirements.txt" içerisinde bulunan Python kütüphanelerini yükleyin:
-
-```bash
-pip install -r requirements.txt
+cd "Dealing with Programming Errors"
 ```
 
 ## Katkılar
