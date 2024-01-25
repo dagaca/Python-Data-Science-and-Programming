@@ -18,42 +18,49 @@ print 9
 Kod aynı zamanda çeşitli istisna durumlarını ele almayı gösterir:
 
 1. ZeroDivisionError
+
 ```python
 # Aşağıdaki satırı açmak, ZeroDivisionError hatasına neden olacaktır
 a = k/zero
 ```
 
 2. IndexError
+
 ```python
 # Aşağıdaki satırı açmak, IndexError hatasına neden olacaktır
 list1[15]
 ```
 
 3. ModuleNotFoundError
+
 ```python
 # Aşağıdaki satırı açmak, ModuleNotFoundError hatasına neden olacaktır
 import numpyy
 ```
 
 4. FileNotFoundError
+
 ```python
 # Aşağıdaki satırı açmak, FileNotFoundError hatasına neden olacaktır
 pd.read_csv("asd")
 ```
 
 5. TypeError
+
 ```python
 # Aşağıdaki satırı açmak, TypeError hatasına neden olacaktır
 "2" + 2
 ```
 
 6. ValueError
+
 ```python
 # Aşağıdaki satırı açmak, ValueError hatasına neden olacaktır
 int("sad")
 ```
 
 7. Try-Except Bloğu
+
 Try-except bloğu, istisnaları yakalamak ve bunlarla uygun bir şekilde başa çıkmak için kullanılır.
 
 ```python
