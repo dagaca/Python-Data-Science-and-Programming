@@ -55,6 +55,7 @@ int("sad")
 
 7. Try-Except Bloğu
 Try-except bloğu, istisnaları yakalamak ve bunlarla uygun bir şekilde başa çıkmak için kullanılır.
+
 ```python
 try:
     1/1
