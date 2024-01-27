@@ -1,17 +1,18 @@
-# Decision Tree ile Göğüs Kanseri Sınıflandırma
+# Decision Tree Regression with Python
 
-Bu repo, Decision Tree algoritması kullanılarak göğüs kanseri sınıflandırma görevini gerçekleştiren bir Python betiğini içermektedir. Betik, bir veri seti ("data.csv") kullanarak modeli eğitiyor ve değerlendiriyor.
-
-
-## Decision Tree Görselleştirmesi
-
-Sınıflandırma görevini daha iyi anlamak için decision tree görselleştirmesine bakınız:
+Bu repo, Decision Tree algoritması kullanılarak bir örnek veri seti üzerinde regresyon analizi gerçekleştirmektedir.
 
 
-![Decision Tree Görselleştirmesi](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/2418a31f-f5a9-475e-9ca8-567011f3164c)
+## Veri Seti
+
+Veri seti "decision_tree_regression_dataset.csv" adlı bir CSV dosyasından okunmaktadır. 
 
 
-Görselleştirme, decision tree algoritmasının nasıl çalıştığını ve veri setinde nasıl kararlar verdiğini açıklar.
+## Decision Tree Regression
+
+Regresyon analizini daha iyi anlamak için aşağıdaki görseli inceleyebilirsiniz:
+
+![Decision Tree Regression](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/1074b365-8cd7-4e6a-adb1-f3e01f66f070)
 
 
 ## Nasıl Başlamalı?
@@ -20,7 +21,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "Decision Tree Classification"
+cd "Decision Tree Regression"
 ```
 
 
