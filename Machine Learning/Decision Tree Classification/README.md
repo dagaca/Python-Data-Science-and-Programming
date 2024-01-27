@@ -1,4 +1,4 @@
-# Decision Tree ile Göğüs Kanseri Sınıflandırma
+# Breast Cancer Classification with Decision Tree
 
 Bu repo, Decision Tree algoritması kullanılarak göğüs kanseri sınıflandırma görevini gerçekleştiren bir Python betiğini içermektedir. Betik, bir veri seti ("data.csv") kullanarak modeli eğitiyor ve değerlendiriyor.
 
