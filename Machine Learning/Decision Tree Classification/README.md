@@ -3,12 +3,12 @@
 Bu repo, Decision Tree algoritması kullanılarak göğüs kanseri sınıflandırma görevini gerçekleştiren bir Python betiğini içermektedir. Betik, bir veri seti ("data.csv") kullanarak modeli eğitiyor ve değerlendiriyor.
 
 
-## Decision Tree Görselleştirmesi
+## Decision Tree Classification
 
 Sınıflandırma görevini daha iyi anlamak için decision tree görselleştirmesine bakınız:
 
 
-![Decision Tree Görselleştirmesi](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/2418a31f-f5a9-475e-9ca8-567011f3164c)
+![Decision Tree Classification](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/2418a31f-f5a9-475e-9ca8-567011f3164c)
 
 
 Görselleştirme, decision tree algoritmasının nasıl çalıştığını ve veri setinde nasıl kararlar verdiğini açıklar.
