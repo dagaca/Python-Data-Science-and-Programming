@@ -1,18 +1,18 @@
-# Decision Tree Regression with Python
+# Breast Cancer Diagnosis using Random Forest
 
-Bu repo, Decision Tree algoritması kullanılarak bir örnek veri seti üzerinde regresyon analizi gerçekleştirmektedir.
+Bu repo, veri kümesi üzerinde Random Forest sınıflandırıcısı oluşturan bir Python betiği içermektedir. 
 
 
 ## Veri Seti
 
-Veri seti "decision_tree_regression_dataset.csv" adlı bir CSV dosyasından okunmaktadır. 
+Veri seti "data.csv" adlı bir CSV dosyasından okunmaktadır. 
 
 
-## Decision Tree Regression
+## Confusion Matrix
 
-Regresyon analizini daha iyi anlamak için aşağıdaki görseli inceleyebilirsiniz:
+Betiği çalıştırdıktan sonra test setinde Random Forest Algoritmasının doğruluğunu ve bir karışıklık matrisi görselleştirmesini göreceksiniz. Karışıklık matrisini daha iyi anlamak için aşağıdaki görseli inceleyebilirsiniz:
 
-![Decision Tree Regression](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/1074b365-8cd7-4e6a-adb1-f3e01f66f070)
+![confusion_matrix](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/dfeca205-a495-4e18-add2-7fc7c845c868)
 
 
 ## Nasıl Başlamalı?
@@ -21,7 +21,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "Decision Tree Regression"
+cd "Evaluation Classification Models"
 ```
 
 
