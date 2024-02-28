@@ -1,40 +1,36 @@
-# Breast Cancer Classification with K-Nearest Neighbour (KNN)
+# Model Selection with KNN and LR
 
-Bu repo, bir göğüs kanseri teşhisi veri seti üzerinde K-Nearest Neighbour (KNN) algoritması kullanılarak sınıflandırma analizi gerçekleştiren bir Python betiği içermektedir.
+Bu repo, makine öğrenimi algoritmalarının iris veri seti üzerinde uygulandığı bir Python betiğini içermektedir.
 
 
 
 ## Veri Seti
 
-Veri seti "data.csv" adlı bir CSV dosyasından okunmaktadır. 
+Veri seti, ünlü iris veri setidir. Bu veri seti, iris bitkisinin üç farklı türüne (setosa, versicolor ve virginica) ait çeşitli özelliklerin (örneğin, çiçek yapraklarının uzunluğu ve genişliği) ölçümlerini içerir.
 
 
 
 ## Veri Ön İşleme
 
-Veri seti, "id" ve "Unnamed: 32" sütunları gibi gereksiz sütunlar çıkarılarak temizlenmiştir. Teşhis sonuçları "M"alignant için 1, "B"enign için 0 olarak kodlanmıştır. Özellikler ise normalize edilmiştir.
+Veriler, normalize edilmiş ve eğitim-test ayrımına tabi tutulmuştur. Ayrıca, K-Fold Cross Validation için veri seti hazırlanmıştır.
 
 
 
-## Eğitim ve Test
+## K-Nearest Neighbour (KNN) Algoritması
 
-Veri seti, eğitim ve test veri kümelerine ayrılmıştır (%70 eğitim, %30 test). 
-
-
-
-## K-Nearest Neighbour (KNN) Modeli
-
-Scikit-learn kütüphanesinde bulunan KNeighborsClassifier modeli kullanılarak KNN algoritması uygulanmıştır. Bu betikte, en yakın 3 komşuya göre bir sınıflandırma modeli oluşturulmuştur.
+K-Nearest Neighbour algoritması kullanılarak model eğitilmiştir. Modelin performansı, K-Fold Cross Validation yöntemiyle değerlendirilmiş ve test veri seti üzerinde doğruluk oranı hesaplanmıştır. Ayrıca, hiperparametre K için en iyi değer Grid Search Cross Validation kullanılarak bulunmuştur.
 
 
 
-## Sonuçlar
+## K-Fold Cross Validation 
 
-Modelin performansını değerlendirmek için, farklı K değerleri için doğruluk (accuracy) değerleri hesaplanmıştır. Bu değerlerin grafiği çizilerek, en uygun K değeri belirlenmiştir.
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/ed30b146-e6bb-4df4-aacd-9ed208304a30)
 
 
 
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/3b7b7a84-9764-414c-8b19-af5dadbbeb73)
+## Logistic Regression Algoritması
+
+Ayrıca, Logistic Regression algoritması kullanılarak da model eğitimi yapılmıştır. Logistic Regression modelinin hiperparametrelerini (C ve penalty) belirlemek için Grid Search Cross Validation kullanılmıştır. Modelin performansı, en iyi hiperparametrelerle eğitilmiş modelin test veri seti üzerindeki doğruluğu ile değerlendirilmiştir.
 
 
 
