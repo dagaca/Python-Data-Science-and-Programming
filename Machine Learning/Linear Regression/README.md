@@ -1,40 +1,38 @@
-# Breast Cancer Classification with K-Nearest Neighbour (KNN)
+# Linear Regression
 
-Bu repo, bir göğüs kanseri teşhisi veri seti üzerinde K-Nearest Neighbour (KNN) algoritması kullanılarak sınıflandırma analizi gerçekleştiren bir Python betiği içermektedir.
+Bu repo, bir deneyim verisi kullanarak maaş tahmini yapmak için Linear Regression modeli oluşturan bir Python betiği içermektedir.
 
 
 
 ## Veri Seti
 
-Veri seti "data.csv" adlı bir CSV dosyasından okunmaktadır. 
+Veri seti, "linear_regression_dataset.csv" adlı bir CSV dosyasından okunmaktadır. Bu dosya, deneyim ve maaş verilerini içerir.
 
 
 
-## Veri Ön İşleme
+## Veri Görselleştirme
 
-Veri seti, "id" ve "Unnamed: 32" sütunları gibi gereksiz sütunlar çıkarılarak temizlenmiştir. Teşhis sonuçları "M"alignant için 1, "B"enign için 0 olarak kodlanmıştır. Özellikler ise normalize edilmiştir.
-
-
-
-## Eğitim ve Test
-
-Veri seti, eğitim ve test veri kümelerine ayrılmıştır (%70 eğitim, %30 test). 
+Veri seti görselleştirilerek, deneyim ve maaş arasındaki ilişki bir scatter plot ile gösterilmiştir.
 
 
 
-## K-Nearest Neighbour (KNN) Modeli
+## Linear Regression Modeli
 
-Scikit-learn kütüphanesinde bulunan KNeighborsClassifier modeli kullanılarak KNN algoritması uygulanmıştır. Bu betikte, en yakın 3 komşuya göre bir sınıflandırma modeli oluşturulmuştur.
-
-
-
-## Sonuçlar
-
-Modelin performansını değerlendirmek için, farklı K değerleri için doğruluk (accuracy) değerleri hesaplanmıştır. Bu değerlerin grafiği çizilerek, en uygun K değeri belirlenmiştir.
+Scikit-learn kütüphanesinde bulunan LinearRegression modeli kullanılarak Linear Regression modeli oluşturulmuştur. Bu betikte, deneyim verisi bağımsız değişken olarak kullanılırken, maaş verisi bağımlı değişken olarak kullanılmıştır.
 
 
 
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/3b7b7a84-9764-414c-8b19-af5dadbbeb73)
+## Tahminler
+
+Oluşturulan Linear Regression modeli kullanılarak, belirli bir deneyim seviyesi için maaş tahmini yapılmıştır. Ayrıca, modelin yaptığı tahminler görselleştirilmiştir.
+
+
+
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/d3846008-943e-497f-859a-9581addd5202)
+
+
+
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/1eafedd8-3ab4-4a2e-b6a6-237b062c0afe)
 
 
 
@@ -44,7 +42,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "K-Nearest Neighbour (KNN)"
+cd "Linear Regression"
 ```
 
 
