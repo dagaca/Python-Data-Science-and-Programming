@@ -1,62 +1,68 @@
-# Twitter Gender Classification with Natural Language Process (NLP)
+# Breast Cancer Classification with Random Forest Classification
 
-Bu projede, Twitter veri setini kullanarak cinsiyet tahmini yapılıyor. Proje adımları şu şekildedir:
+Bu repo, Wisconsin Göğüs Kanseri veri kümesini kullanarak göğüs kanserini teşhis etmek için Random Forest algoritmasının uygulanışını göstermektedir.
 
 
 
-## Veri Seti
+## Veri Açıklaması
 
-Veri seti, "gender-classifier.csv" adlı bir dosyadan içe aktarılmıştır. Bu veri seti, cinsiyet ve Twitter kullanıcılarının açıklamalarını içerir.
+Veri kümesi, bir kitle (FNA) için dijitalleştirilmiş bir görüntüden hesaplanan özellikleri içerir. Özellikler, görüntüde bulunan hücre çekirdeklerinin çeşitli özelliklerini tanımlar. "diagnosis" hedef değişkeni, kütlenin iyi huylu (B) veya kötü huylu (M) olup olmadığını gösterir.
 
 
 
 ## Veri Ön İşleme
 
-Veri ön işleme adımları şu şekildedir:
+- Veri kümesi yüklenir ve "id" ve "Unnamed: 32" gibi gereksiz sütunlar çıkarılır.
 
-- Açıklamalardan gereksiz karakterler ve sayılar kaldırılmıştır.
+- "diagnosis" hedef değişkeni, kötü huylu (M) için 1 ve iyi huylu (B) için 0 olarak kodlanır.
 
-- Açıklamalar küçük harflere dönüştürülmüştür.
+- Özellik normalizasyonu yapılır, özelliklerin değer aralığını 0 ile 1 arasına ölçekler.
 
-- Lemmatization işlemi uygulanarak kelimeler köklerine indirgenmiştir.
-
-- En sık kullanılan 5000 kelimeye göre Bag of Words yöntemi uygulanmıştır.
+- Veri kümesi, %15'lik bir test boyutuyla eğitim ve test setlerine bölünür.
 
 
 
-## Modelleme
+## Random Forest Sınıflandırıcısı
 
-- Naive Bayes algoritması kullanılarak model eğitilmiştir.
+Ön işlenmiş veri üzerinde 100 karar ağacı ile Random Forest sınıflandırıcısı eğitilir.
 
-- Eğitilen model, test veri seti üzerinde doğruluk değeri hesaplanmıştır.
+```bash
+from sklearn.ensemble import RandomForestClassifier
 
+rf = RandomForestClassifier(n_estimators=100, random_state=1)
+rf.fit(x_train, y_train)
+```
 
-
-## Geliştirme Ortamı
-
-- Python kullanılarak geliştirilmiştir.
-
-- Kullanılan kütüphaneler: pandas, re, nltk ve scikit-learn.
-
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/7cc03aa4-7866-47a5-9567-c5851085dd6a)
 
 
-## Notlar
+## Model Değerlendirmesi
+
+Random Forest algoritmasının doğruluğu test setinde değerlendirilir.
+
+```bash
+print("Random Forest Algoritmasının Doğruluğu: ", rf.score(x_test, y_test))
+```
 
 
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/9e1b650a-63be-47c5-b4ab-6b0abfb60817)
 
+## Sonuç
+
+Random Forest algoritması, verilen özelliklere dayanarak göğüs kanserini teşhis etmede belirli bir doğruluk düzeyine ulaşır. Optimal performans için modelin daha fazla analizi ve ayarlaması gerekebilir.
 
 
 
 ## Nasıl Başlamalı?
+
 Aşağıdaki adımları izleyerek başlayabilirsiniz:
 
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "Natural Language Process (NLP)"
+cd "Random Forest Classification"
 ```
 
 
 ## Katkılar
+
 Projeye katkıda bulunmak istiyorsanız, lütfen bir konu açın veya bir çekme isteği oluşturun. Her türlü katkı ve geri bildirim memnuniyetle karşılanır.
