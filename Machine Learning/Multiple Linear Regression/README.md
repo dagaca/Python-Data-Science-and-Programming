@@ -1,40 +1,30 @@
-# Breast Cancer Classification with K-Nearest Neighbour (KNN)
+# Multiple Linear Regression Model
 
-Bu repo, bir göğüs kanseri teşhisi veri seti üzerinde K-Nearest Neighbour (KNN) algoritması kullanılarak sınıflandırma analizi gerçekleştiren bir Python betiği içermektedir.
+Bu repo, Multiple Linear Regression modelinin bir örneğini içermektedir. Python betiği, bir veri seti üzerinde Multiple Linear Regression modelini uygular.
 
 
 
 ## Veri Seti
-
-Veri seti "data.csv" adlı bir CSV dosyasından okunmaktadır. 
-
-
-
-## Veri Ön İşleme
-
-Veri seti, "id" ve "Unnamed: 32" sütunları gibi gereksiz sütunlar çıkarılarak temizlenmiştir. Teşhis sonuçları "M"alignant için 1, "B"enign için 0 olarak kodlanmıştır. Özellikler ise normalize edilmiştir.
+Veri seti, "multiple_linear_regression_dataset.csv" adlı bir CSV dosyasından okunmaktadır. Bu dosya, regresyon analizi için özellikler ve hedef değişken içerir.
 
 
 
-## Eğitim ve Test
-
-Veri seti, eğitim ve test veri kümelerine ayrılmıştır (%70 eğitim, %30 test). 
-
-
-
-## K-Nearest Neighbour (KNN) Modeli
-
-Scikit-learn kütüphanesinde bulunan KNeighborsClassifier modeli kullanılarak KNN algoritması uygulanmıştır. Bu betikte, en yakın 3 komşuya göre bir sınıflandırma modeli oluşturulmuştur.
+## Model Oluşturma
+Multiple Linear Regression modeli, scikit-learn kütüphanesinden LinearRegression sınıfı kullanılarak oluşturulmuştur. Model, eğitim verilerine uyarlanmış ve ilgili katsayılar (b0, b1, b2, vb.) elde edilmiştir.
 
 
 
-## Sonuçlar
-
-Modelin performansını değerlendirmek için, farklı K değerleri için doğruluk (accuracy) değerleri hesaplanmıştır. Bu değerlerin grafiği çizilerek, en uygun K değeri belirlenmiştir.
-
+## Özellikler ve Hedef Değişkenler
+Model, eğitim veri setindeki belirli özellikler (x) ile hedef değişken (y) arasındaki ilişkiyi modellemektedir. Özellikler ve hedef değişken, veri setinden uygun şekilde seçilmiştir.
 
 
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/3b7b7a84-9764-414c-8b19-af5dadbbeb73)
+
+## Tahmin
+Oluşturulan model, yeni veri noktaları üzerinde tahminler yapabilir. Örnek olarak, belirli bir deneyim süresi ve yaşa sahip bireylerin maaşlarını tahmin etmek için model kullanılabilir.
+
+
+
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/55aeb834-9623-4aeb-820b-3d2a0a74cac3)
 
 
 
@@ -44,7 +34,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "K-Nearest Neighbour (KNN)"
+cd "Multiple Linear Regression"
 ```
 
 
