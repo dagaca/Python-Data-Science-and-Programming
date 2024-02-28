@@ -1,50 +1,37 @@
-# Twitter Gender Classification with Natural Language Process (NLP)
+# Polynomial Linear Regression
 
-Bu projede, Twitter veri setini kullanarak cinsiyet tahmini yapılıyor. Proje adımları şu şekildedir:
+Bu repo, Polynomial Linear Regression temel bir örneğini içerir. Python betiği, araba fiyatı ve araba maksimum hızı arasındaki ilişkiyi modellemek için polinom regresyonunu kullanır.
 
 
 
 ## Veri Seti
 
-Veri seti, "gender-classifier.csv" adlı bir dosyadan içe aktarılmıştır. Bu veri seti, cinsiyet ve Twitter kullanıcılarının açıklamalarını içerir.
+Veri seti, "polynomial_regression.csv" adlı bir dosyadan içe aktarılır. Bu veri seti, araba fiyatı ve buna karşılık gelen araba maksimum hızı verilerini içerir.
 
 
 
-## Veri Ön İşleme
+## Görselleştirme
 
-Veri ön işleme adımları şu şekildedir:
-
-- Açıklamalardan gereksiz karakterler ve sayılar kaldırılmıştır.
-
-- Açıklamalar küçük harflere dönüştürülmüştür.
-
-- Lemmatization işlemi uygulanarak kelimeler köklerine indirgenmiştir.
-
-- En sık kullanılan 5000 kelimeye göre Bag of Words yöntemi uygulanmıştır.
+Veriler, bir scatter plot grafiğinde görselleştirilir. Araba fiyatı (x ekseninde) ve araba maksimum hızı (y ekseninde) arasındaki ilişki incelenir.
 
 
 
 ## Modelleme
 
-- Naive Bayes algoritması kullanılarak model eğitilmiştir.
+1. **Doğrusal Regresyon (Linear Regression):** İlk olarak, veriler doğrusal regresyon yöntemi kullanılarak modellemeye çalışılır. Bu yöntem, verileri doğrusal bir denklemle (y = b0 + b1*x) modellemeye çalışır.
 
-- Eğitilen model, test veri seti üzerinde doğruluk değeri hesaplanmıştır.
-
-
-
-## Geliştirme Ortamı
-
-- Python kullanılarak geliştirilmiştir.
-
-- Kullanılan kütüphaneler: pandas, re, nltk ve scikit-learn.
+2. **Polinom Regresyon (Polynomial Regression):** Ardından, polinom regresyonu yöntemi kullanılarak modellemeye çalışılır. Bu yöntem, verileri daha karmaşık bir denklemle (y = b0 + b1*x + b2*x^2 + ...) modellemeye çalışır.
 
 
 
-## Notlar
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/01a27d69-a3dc-4b29-b3b3-19c46f52c9bb)
 
 
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/9e1b650a-63be-47c5-b4ab-6b0abfb60817)
 
+
+## Sonuçlar
+
+Her iki modelin de tahminleri, gerçek verilere göre karşılaştırılır ve görselleştirilir. Ayrıca, örnek bir arabın fiyatı verilerek, her iki modelin de tahminlerine bakılır.
 
 
 
@@ -54,7 +41,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "Natural Language Process (NLP)"
+cd "Polynomial Linear Regression"
 ```
 
 
