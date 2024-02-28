@@ -12,7 +12,8 @@ Bu repoda, "Random Forest Regression" scikit-learn kütüphanesinden RandomFores
 
 ## Sonuçlar
 
-Python betikleri, regresyon modeli için R-kare puanını hesaplar. Bu puan, modelin verilere ne kadar iyi uyduğunu gösterir.
+Python betikleri, regresyon modeli için R-square puanını hesaplar. Bu puan, modelin verilere ne kadar iyi uyduğunu gösterir.
+
 
 ![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/93d365f3-da84-4ca2-9e95-b2a43acf6519)
 
