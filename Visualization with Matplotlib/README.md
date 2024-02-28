@@ -1,20 +1,39 @@
-# Pokémon Challenge - Python ile Veri Analizi
-Bu proje, Kaggle'dan alınan Pokémon veri setini analiz etmek için Python kodunu içermektedir. Veri seti, çeşitli Pokémon'ların istatistikleri, türleri ve yetenekleri gibi bilgileri içerir. Analizler, keşifler ve görselleştirmeler içeren kapsamlı bir projedir.
+# Visualization with Matplotlib
+
+Bu repo, Matplotlib kütüphanesini kullanarak veri görselleştirmesi için Python kodunu içerir. Iris veri setini kullanarak çeşitli grafik türleri, örneğin çizgi grafiği, dağılım grafiği, sütun grafiği, histogramlar ve alt grafikler Matplotlib kütüphanesi kullanılarak oluşturulmuştur.
+
+
 
 ## Veri Seti
-Bu projede kullanılan Pokémon veri setine [bu bağlantıdan](https://www.kaggle.com/datasets/terminus7/pokemon-challenge) ulaşabilirsiniz. Veri seti, çeşitli Pokémon özelliklerini içermektedir.
+Veri seti, "iris.csv" adlı bir CSV dosyasından okunmaktadır. Veri seti, ünlü iris veri setidir. Bu veri seti, iris bitkisinin üç farklı türüne (setosa, versicolor ve virginica) ait çeşitli özelliklerin (örneğin, çiçek yapraklarının uzunluğu ve genişliği) ölçümlerini içerir.
+
+
 
 ## Proje İçeriği
-- Python betiği, Pokémon veri setini detaylı bir şekilde inceler. İstatistikler, tür analizleri, eğilimler ve daha fazlasını içeren kapsamlı bir rapor oluşturur.
 
-- Çeşitli grafikler ve görselleştirmeler, analiz sonuçlarını daha anlaşılır kılmak için kullanılır. Örnek olarak, tür dağılımları, istatistikler arasındaki korelasyonlar ve yaş gruplarına göre Pokémon sayıları gibi görselleştirmeler bulunur.
+**Çizgi Grafiği**
+Bu betik, Matplotlib kullanarak çizgi grafikleri oluşturmanın nasıl yapıldığını göstermektedir. Farklı Iris çiçek türleri için çizgi grafikleri gösterilmektedir.
+
+**Dağılım Grafiği**
+Iris çiçeklerinin taç yaprağı uzunluğu ve genişliği özelliklerinin dağılım grafiği çizdirilmektedir. Her bir tür farklı bir renkle temsil edilmektedir.
+
+**Histogram**
+Iris çiçeklerinin taç yaprağı uzunluğu özelliği için histogramlar, frekans dağılımlarını görselleştirmek için çizilmektedir.
+
+**Sütun Grafiği**
+Sütun grafikleri, örnek verilerle gösterilmektedir.
+
+**Alt Grafikler**
+Bu betik ayrıca, Matplotlib kullanarak alt grafikler oluşturmanın nasıl yapıldığını da göstermektedir. Bu sayede tek bir figür içinde birden fazla grafik oluşturulabilmektedir.
+
+
 
 ## Nasıl Başlamalı?
 Aşağıdaki adımları izleyerek başlayabilirsiniz:
 
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
-cd "Data Science"
+cd "Visualization with Matplotlib"
 ```
 
 Projenin çalışması için "requirements.txt" içerisinde bulunan Python kütüphanelerini yükleyin:
@@ -22,6 +41,8 @@ Projenin çalışması için "requirements.txt" içerisinde bulunan Python küt�
 ```bash
 pip install -r requirements.txt
 ```
+
+
 
 ## Katkılar
 Projeye katkıda bulunmak istiyorsanız, lütfen bir konu açın veya bir çekme isteği oluşturun. Her türlü katkı ve geri bildirim memnuniyetle karşılanır.
