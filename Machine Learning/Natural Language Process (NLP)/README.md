@@ -1,40 +1,46 @@
-# Breast Cancer Classification with K-Nearest Neighbour (KNN)
+# Twitter Gender Classification with Natural Language Process (NLP)
 
-Bu repo, bir göğüs kanseri teşhisi veri seti üzerinde K-Nearest Neighbour (KNN) algoritması kullanılarak sınıflandırma analizi gerçekleştiren bir Python betiği içermektedir.
+Bu projede, Twitter veri setini kullanarak cinsiyet tahmini yapılıyor. Proje adımları şu şekildedir:
 
 
 
 ## Veri Seti
 
-Veri seti "data.csv" adlı bir CSV dosyasından okunmaktadır. 
+Veri seti, "gender-classifier.csv" adlı bir dosyadan içe aktarılmıştır. Bu veri seti, cinsiyet ve Twitter kullanıcılarının açıklamalarını içerir.
 
 
 
 ## Veri Ön İşleme
 
-Veri seti, "id" ve "Unnamed: 32" sütunları gibi gereksiz sütunlar çıkarılarak temizlenmiştir. Teşhis sonuçları "M"alignant için 1, "B"enign için 0 olarak kodlanmıştır. Özellikler ise normalize edilmiştir.
+Veri ön işleme adımları şu şekildedir:
+
+- Açıklamalardan gereksiz karakterler ve sayılar kaldırılmıştır.
+
+- Açıklamalar küçük harflere dönüştürülmüştür.
+
+- Lemmatization işlemi uygulanarak kelimeler köklerine indirgenmiştir.
+
+- En sık kullanılan 5000 kelimeye göre Bag of Words yöntemi uygulanmıştır.
 
 
 
-## Eğitim ve Test
+## Modelleme
 
-Veri seti, eğitim ve test veri kümelerine ayrılmıştır (%70 eğitim, %30 test). 
+- Naive Bayes algoritması kullanılarak model eğitilmiştir.
 
-
-
-## K-Nearest Neighbour (KNN) Modeli
-
-Scikit-learn kütüphanesinde bulunan KNeighborsClassifier modeli kullanılarak KNN algoritması uygulanmıştır. Bu betikte, en yakın 3 komşuya göre bir sınıflandırma modeli oluşturulmuştur.
+- Eğitilen model, test veri seti üzerinde doğruluk değeri hesaplanmıştır.
 
 
 
-## Sonuçlar
+## Geliştirme Ortamı
 
-Modelin performansını değerlendirmek için, farklı K değerleri için doğruluk (accuracy) değerleri hesaplanmıştır. Bu değerlerin grafiği çizilerek, en uygun K değeri belirlenmiştir.
+- Python kullanılarak geliştirilmiştir.
+
+- Kullanılan kütüphaneler: pandas, re, nltk ve scikit-learn.
 
 
 
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/3b7b7a84-9764-414c-8b19-af5dadbbeb73)
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/1e217cfb-274b-4dbe-b8fd-9865ac718641)
 
 
 
@@ -44,7 +50,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "K-Nearest Neighbour (KNN)"
+cd "Natural Language Process (NLP)"
 ```
 
 
