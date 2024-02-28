@@ -14,12 +14,12 @@ Veri seti, futbol maçı bilet ücretlerini tribün seviyesine göre içeren bir
 
 Random Forest Regression, veri setindeki tribün seviyesi ve bilet ücreti arasındaki ilişkiyi modellemek için kullanılır. Model, 100 ağaçtan oluşan bir orman oluşturur.
 
-'''bash
+"""bash
 from sklearn.ensemble import RandomForestRegressor
 
 rf = RandomForestRegressor(n_estimators=100, random_state=42)
 rf.fit(x, y)
-'''
+"""
 
 
 
