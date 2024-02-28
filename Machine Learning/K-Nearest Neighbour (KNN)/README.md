@@ -1,6 +1,7 @@
-# Breast Cancer Diagnosis using Random Forest
+# Breast Cancer Classification with K-Nearest Neighbour (KNN)
 
-Bu repo, veri kümesi üzerinde Random Forest sınıflandırıcısı oluşturan bir Python betiği içermektedir. 
+Bu repo, bir göğüs kanseri teşhisi veri seti üzerinde K-Nearest Neighbour (KNN) algoritması kullanılarak sınıflandırma analizi gerçekleştiren bir Python betiği içermektedir.
+
 
 
 ## Veri Seti
@@ -8,11 +9,33 @@ Bu repo, veri kümesi üzerinde Random Forest sınıflandırıcısı oluşturan 
 Veri seti "data.csv" adlı bir CSV dosyasından okunmaktadır. 
 
 
-## Confusion Matrix
 
-Betiği çalıştırdıktan sonra test setinde Random Forest Algoritmasının doğruluğunu ve bir karışıklık matrisi görselleştirmesini göreceksiniz. Karışıklık matrisini daha iyi anlamak için aşağıdaki görseli inceleyebilirsiniz:
+## Veri Ön İşleme
 
-![confusion_matrix](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/dfeca205-a495-4e18-add2-7fc7c845c868)
+Veri seti, "id" ve "Unnamed: 32" sütunları gibi gereksiz sütunlar çıkarılarak temizlenmiştir. Teşhis sonuçları "M"alignant için 1, "B"enign için 0 olarak kodlanmıştır. Özellikler ise normalize edilmiştir.
+
+
+
+## Eğitim ve Test
+
+Veri seti, eğitim ve test veri kümelerine ayrılmıştır (%70 eğitim, %30 test). 
+
+
+
+## K-En Yakın Komşu (KNN) Modeli
+
+Scikit-learn kütüphanesinde bulunan KNeighborsClassifier modeli kullanılarak KNN algoritması uygulanmıştır. Bu betikte, en yakın 3 komşuya göre bir sınıflandırma modeli oluşturulmuştur.
+
+
+
+## Sonuçlar
+
+Modelin performansını değerlendirmek için, farklı K değerleri için doğruluk (accuracy) değerleri hesaplanmıştır. Bu değerlerin grafiği çizilerek, en uygun K değeri belirlenmiştir.
+
+
+
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/3b7b7a84-9764-414c-8b19-af5dadbbeb73)
+
 
 
 ## Nasıl Başlamalı?
@@ -21,7 +44,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "Evaluation Classification Models"
+cd "K-Nearest Neighbour (KNN)"
 ```
 
 
