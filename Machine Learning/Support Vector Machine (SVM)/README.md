@@ -1,62 +1,51 @@
-# Twitter Gender Classification with Natural Language Process (NLP)
+# Breast Cancer Classification with Support Vector Machine (SVM)
 
-Bu projede, Twitter veri setini kullanarak cinsiyet tahmini yapılıyor. Proje adımları şu şekildedir:
+Bu repo, göğüs kanseri teşhisinde Support Vector Machine (SVM) algoritmasının kullanımını içerir.
 
 
 
 ## Veri Seti
 
-Veri seti, "gender-classifier.csv" adlı bir dosyadan içe aktarılmıştır. Bu veri seti, cinsiyet ve Twitter kullanıcılarının açıklamalarını içerir.
+Veri seti "data.csv" adlı bir CSV dosyasından okunmaktadır. Veri seti, göğüs kanseri teşhisi için özellikler içerir. Öznitelikler, tümör hücrelerinin çeşitli özelliklerini tanımlar. Her bir özellik, kanserin iyi huylu (B) veya kötü huylu (M) olduğunu belirlemeye yardımcı olur.
 
 
 
 ## Veri Ön İşleme
 
-Veri ön işleme adımları şu şekildedir:
+Veri ön işleme adımları şunlardır:
 
-- Açıklamalardan gereksiz karakterler ve sayılar kaldırılmıştır.
-
-- Açıklamalar küçük harflere dönüştürülmüştür.
-
-- Lemmatization işlemi uygulanarak kelimeler köklerine indirgenmiştir.
-
-- En sık kullanılan 5000 kelimeye göre Bag of Words yöntemi uygulanmıştır.
+- Veri setinden gereksiz sütunlar (id ve Unnamed: 32) kaldırıldı.
+  
+- Hedef değişken olan "diagnosis" sütunu, iyi huylu kanserler için 0 ve kötü huylu kanserler için 1 olacak şekilde dönüştürüldü.
+  
+- Özellikler normalize edildi.
 
 
 
-## Modelleme
+## Model Eğitimi ve Değerlendirme
 
-- Naive Bayes algoritması kullanılarak model eğitilmiştir.
+SVM algoritması kullanılarak bir model eğitildi ve test edildi. Veri seti, eğitim ve test setlerine ayrılarak (70% eğitim, 30% test) model eğitildi ve performansı değerlendirildi.
 
-- Eğitilen model, test veri seti üzerinde doğruluk değeri hesaplanmıştır.
-
-
-
-## Geliştirme Ortamı
-
-- Python kullanılarak geliştirilmiştir.
-
-- Kullanılan kütüphaneler: pandas, re, nltk ve scikit-learn.
+Modelin doğruluğu şu şekildedir: [Accuracy of SVM Algorithm: 0.95]
 
 
 
-## Notlar
-
-
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/9e1b650a-63be-47c5-b4ab-6b0abfb60817)
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/54d17253-fc98-43c6-a751-98150ad6b852)
 
 
 
 
 ## Nasıl Başlamalı?
+
 Aşağıdaki adımları izleyerek başlayabilirsiniz:
 
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "Natural Language Process (NLP)"
+cd "Support Vector Machine (SVM)"
 ```
 
 
 ## Katkılar
+
 Projeye katkıda bulunmak istiyorsanız, lütfen bir konu açın veya bir çekme isteği oluşturun. Her türlü katkı ve geri bildirim memnuniyetle karşılanır.
