@@ -193,27 +193,3 @@ class Customer:
                 return 0,0,0
         else:
             print("Return vehicle Error")
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
