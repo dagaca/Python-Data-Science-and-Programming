@@ -43,6 +43,7 @@ Bu repo, DataiTeam'in "7 Adımlık Yapay Zeka Yolculuğu" eğitimi süresince ed
    git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
    ```
 
-
+## Referans
+- DATAI TEAM
 ## Daha Fazla Bilgi Edin
 Bu bilgiler ışığında farklı datalar kullanılarak yapılan çalışmalar [![Kaggle Badge](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/dagaca) hesabımda mevcuttur.
