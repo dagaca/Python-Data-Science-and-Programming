@@ -5,8 +5,6 @@ Created on Tue Jun 12 17:23:39 2018
 @author: user
 """
 
-# matplotlib kutuphanesi
-# gorsellestime kotuphanesi
 # line plot, scatter plot, bar plot, subplots, histogram
 
 import pandas as pd
