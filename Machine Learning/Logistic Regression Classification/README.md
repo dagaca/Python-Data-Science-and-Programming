@@ -33,6 +33,7 @@ Modelin performansı, test veri kümesi üzerinde doğruluk (accuracy) oranı ku
 
 
 
+
 ![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/a347f946-78c1-4125-a677-fb25c74ffe32)
 
 
