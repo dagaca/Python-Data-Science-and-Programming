@@ -1,18 +1,20 @@
-# Breast Cancer Diagnosis using Random Forest
+# Random Forest Regression
 
-Bu repo, veri kümesi üzerinde Random Forest sınıflandırıcısı oluşturan bir Python betiği içermektedir. 
+Bu repoda, "Random Forest Regression" scikit-learn kütüphanesinden RandomForestRegressor kullanılarak uygulanmaktadır. Bu betikte, regresyon için 100 karar ağacı kullanılmakta ve yeniden üretilebilirlik için rastgele durum 42 olarak ayarlanmıştır. Ayrıca bu repo, "linear_regression_dataset.csv" adlı bir veri kümesi üzerinde "Linear Regression" gerçekleştiren bir Python betiği içermektedir. Betiğin başında, veri görselleştirilmiştir. "Deneyim" ve "Maaş" arasındaki ilişkiyi gösteren bir scatter plot çizilmiştir. Scikit-learn kütüphanesinde bulunan LinearRegression modeli kullanılarak lineer regresyon gerçekleştirilmiştir. Bu betik, deneyim verilerini bağımsız değişken olarak alırken, maaş verilerini bağımlı değişken olarak kullanmaktadır.
 
 
 ## Veri Seti
 
-Veri seti "data.csv" adlı bir CSV dosyasından okunmaktadır. 
+- Veri seti Random Forest Regression için "random_forest_regression_dataset.csv" adlı bir CSV dosyasından okunmaktadır. Bu dosya, regresyon analizi için özellikler ve hedef değişken içerir. 
+
+- Veri seti Linear Regression için CSV formatında "linear_regression_dataset.csv" dosyasından okunmaktadır. Bu veri seti, "deneyim" ve "maas" adında iki sütun içerir.
 
 
-## Confusion Matrix
+## Sonuçlar
 
-Betiği çalıştırdıktan sonra test setinde Random Forest Algoritmasının doğruluğunu ve bir karışıklık matrisi görselleştirmesini göreceksiniz. Karışıklık matrisini daha iyi anlamak için aşağıdaki görseli inceleyebilirsiniz:
+Python betikleri, regresyon modeli için R-kare puanını hesaplar. Bu puan, modelin verilere ne kadar iyi uyduğunu gösterir.
 
-![confusion_matrix](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/dfeca205-a495-4e18-add2-7fc7c845c868)
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/93d365f3-da84-4ca2-9e95-b2a43acf6519)
 
 
 ## Nasıl Başlamalı?
@@ -21,7 +23,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "Evaluation Classification Models"
+cd "Evaluation Regression Model Performance with R-Square"
 ```
 
 
