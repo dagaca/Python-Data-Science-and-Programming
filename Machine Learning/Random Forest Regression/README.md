@@ -1,50 +1,55 @@
-# Twitter Gender Classification with Natural Language Process (NLP)
+# Random Forest Regression
 
-Bu projede, Twitter veri setini kullanarak cinsiyet tahmini yapılıyor. Proje adımları şu şekildedir:
+Bu repo, bir futbol maçının tribün seviyesine bağlı olarak bilet ücretini tahmin etmek için Random Forest Regression modelini kullanmaktadır.
 
 
 
 ## Veri Seti
 
-Veri seti, "gender-classifier.csv" adlı bir dosyadan içe aktarılmıştır. Bu veri seti, cinsiyet ve Twitter kullanıcılarının açıklamalarını içerir.
+Veri seti, futbol maçı bilet ücretlerini tribün seviyesine göre içeren bir veri kümesidir.
 
 
 
-## Veri Ön İşleme
+## Model
 
-Veri ön işleme adımları şu şekildedir:
+Random Forest Regression, veri setindeki tribün seviyesi ve bilet ücreti arasındaki ilişkiyi modellemek için kullanılır. Model, 100 ağaçtan oluşan bir orman oluşturur.
 
-- Açıklamalardan gereksiz karakterler ve sayılar kaldırılmıştır.
+'''bash
+from sklearn.ensemble import RandomForestRegressor
 
-- Açıklamalar küçük harflere dönüştürülmüştür.
-
-- Lemmatization işlemi uygulanarak kelimeler köklerine indirgenmiştir.
-
-- En sık kullanılan 5000 kelimeye göre Bag of Words yöntemi uygulanmıştır.
-
-
-
-## Modelleme
-
-- Naive Bayes algoritması kullanılarak model eğitilmiştir.
-
-- Eğitilen model, test veri seti üzerinde doğruluk değeri hesaplanmıştır.
+rf = RandomForestRegressor(n_estimators=100, random_state=42)
+rf.fit(x, y)
+'''
 
 
 
-## Geliştirme Ortamı
-
-- Python kullanılarak geliştirilmiştir.
-
-- Kullanılan kütüphaneler: pandas, re, nltk ve scikit-learn.
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/d5200f64-5add-468c-8bc3-cfd6dda77aa3)
 
 
 
-## Notlar
+## Tahmin
+
+Model, belirli bir tribün seviyesi için bilet ücretini tahmin etmek için kullanılabilir. Örneğin, 7.8 tribün seviyesindeki bilet ücreti aşağıdaki gibi tahmin edilir:
+
+'''bash
+print("7.8 tribün seviyesinde ücretin tahmini: ", rf.predict([[7.8]]))
+'''
 
 
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/9e1b650a-63be-47c5-b4ab-6b0abfb60817)
 
+## Görselleştirme
+
+Modelin tahminlerini gerçek verilerle karşılaştırmak için bir görselleştirme yapılır. Tribün seviyesine göre bilet ücreti dağılımını gösteren kırmızı noktalar ve model tarafından tahmin edilen yeşil çizgi görüntülenir.
+
+'''bash
+plt.scatter(x, y, color="red")
+plt.plot(x_, y_head, color="green")
+plt.xlabel("Tribün Seviyesi")
+plt.ylabel("Ücret")
+plt.show()
+'''
+
+Bu görselleştirme, modelin veri setindeki dağılıma ne kadar iyi uyduğunu gösterir.
 
 
 
@@ -54,7 +59,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "Natural Language Process (NLP)"
+cd "Random Forest Regression"
 ```
 
 
