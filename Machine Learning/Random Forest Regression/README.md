@@ -6,7 +6,7 @@ Bu repo, bir futbol maçının tribün seviyesine bağlı olarak bilet ücretini
 
 ## Veri Seti
 
-Veri seti, futbol maçı bilet ücretlerini tribün seviyesine göre içeren bir veri kümesidir.
+Veri seti Random Forest Regression için "random_forest_regression_dataset.csv" adlı bir CSV dosyasından okunmaktadır. Veri seti, futbol maçı bilet ücretlerini tribün seviyesine göre içeren bir veri kümesidir.
 
 
 
