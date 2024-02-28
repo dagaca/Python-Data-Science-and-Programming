@@ -40,7 +40,8 @@ Veri ön işleme adımları şu şekildedir:
 
 
 
-![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/1e217cfb-274b-4dbe-b8fd-9865ac718641)
+![image](https://github.com/dagaca/Python-Data-Science-and-Programming/assets/80363244/9e1b650a-63be-47c5-b4ab-6b0abfb60817)
+
 
 
 
