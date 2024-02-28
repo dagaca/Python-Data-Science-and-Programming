@@ -50,5 +50,5 @@ Bu bilgiler ışığında farklı datalar kullanılarak yapılan çalışmalar [
 
 
 
-## Referans
-- DATAI TEAM
+## Referanslar
+- DATAI TEAM (7 Adımlık Yapay Zeka Yolculuğu)
