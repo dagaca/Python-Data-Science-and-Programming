@@ -6,7 +6,7 @@ Bu repo, Wisconsin Göğüs Kanseri veri kümesini kullanarak göğüs kanserini
 
 ## Veri Açıklaması
 
-Veri kümesi, bir kitle (FNA) için dijitalleştirilmiş bir görüntüden hesaplanan özellikleri içerir. Özellikler, görüntüde bulunan hücre çekirdeklerinin çeşitli özelliklerini tanımlar. "diagnosis" hedef değişkeni, kütlenin iyi huylu (B) veya kötü huylu (M) olup olmadığını gösterir.
+Veri seti, göğüs kanseri teşhisi için kullanılan özellikleri içeren "data.csv" adlı bir CSV dosyasından okunmaktadır. Veri kümesi, bir kitle (FNA) için dijitalleştirilmiş bir görüntüden hesaplanan özellikleri içerir. Özellikler, görüntüde bulunan hücre çekirdeklerinin çeşitli özelliklerini tanımlar. "diagnosis" hedef değişkeni, kütlenin iyi huylu (B) veya kötü huylu (M) olup olmadığını gösterir.
 
 
 
