@@ -114,4 +114,3 @@ while True:
         print("Invalid Input. Please Enter A-B-Q")
         main_menu = True
     print("Thank you for using the vehicle rental shop")
-        
