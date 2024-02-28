@@ -16,9 +16,11 @@ Veri seti, "iris.csv" adlı bir CSV dosyasından okunmaktadır. Veri seti, ünl�
 - Matplotlib kullanarak çizgi grafikleri oluşturmanın nasıl yapıldığını göstermektedir. Farklı Iris çiçek türleri için çizgi grafikleri gösterilmektedir.
 
 
+
 **Dağılım Grafiği**
 
 - Iris çiçeklerinin taç yaprağı uzunluğu ve genişliği özelliklerinin dağılım grafiği çizdirilmektedir. Her bir tür farklı bir renkle temsil edilmektedir.
+
 
 
 **Histogram**
@@ -26,9 +28,11 @@ Veri seti, "iris.csv" adlı bir CSV dosyasından okunmaktadır. Veri seti, ünl�
 - Iris çiçeklerinin taç yaprağı uzunluğu özelliği için histogramlar, frekans dağılımlarını görselleştirmek için çizilmektedir.
 
 
+
 **Sütun Grafiği**
 
 - Sütun grafikleri, örnek verilerle gösterilmektedir.
+
 
 
 **Alt Grafikler**
