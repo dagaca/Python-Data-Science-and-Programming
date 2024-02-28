@@ -40,7 +40,7 @@ Aşağıdaki adımları izleyerek başlayabilirsiniz:
 ```bash
 git clone https://github.com/dagaca/Python-Data-Science-and-Programming.git
 cd "Machine Learning"
-cd "K-Nearest Neighbour (KNN)"
+cd "Model Selection"
 ```
 
 
