@@ -22,7 +22,7 @@ Veri seti, eğitim ve test veri kümelerine ayrılmıştır (%70 eğitim, %30 te
 
 
 
-## K-En Yakın Komşu (KNN) Modeli
+## K-Nearest Neighbour (KNN) Modeli
 
 Scikit-learn kütüphanesinde bulunan KNeighborsClassifier modeli kullanılarak KNN algoritması uygulanmıştır. Bu betikte, en yakın 3 komşuya göre bir sınıflandırma modeli oluşturulmuştur.
 
