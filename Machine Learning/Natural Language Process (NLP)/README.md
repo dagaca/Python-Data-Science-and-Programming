@@ -1,6 +1,6 @@
 # Twitter Gender Classification with Natural Language Process (NLP)
 
-Bu projede, Twitter veri setini kullanarak cinsiyet tahmini yapılıyor. Proje adımları şu şekildedir:
+Bu repoda, Twitter veri setini kullanarak cinsiyet tahmini yapılıyor. Proje adımları şu şekildedir:
 
 
 
